@@ -1,0 +1,157 @@
+body{
+  
+}
+.home{
+    width: 100%;
+    height: 200em;
+    margin-top: 1%;
+    background-image:url("https://cdn.dribbble.com/users/218750/screenshots/1254096/geografi.gif");
+    background-position-y: 10rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.home-words{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:15% ;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    
+}
+.country-btn{
+   
+        color: rgba(7, 6, 7, 0.93);
+        font-size: 15px;
+         line-height: 15px; 
+         padding: 4px;
+          border-radius: 3px;
+           font-family: Georgia, serif; font-weight: normal; 
+           text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+             text-transform: none;
+               border: 1px solid rgb(1, 12, 19);
+                display: inline-block;
+            margin: .3em}
+                
+        .country-btn:hover {
+        background:rgba(239, 135, 213, 0.799); }
+        
+        /* .country-btn:active {
+        background: rgb(255, 218, 224); } */
+
+
+.login{
+    background-color: darkslategrey;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    color: white;
+
+}
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    color:white;
+    text-decoration: none;
+    margin-left: 2rem;
+    
+}
+.title:hover{
+    color: black;
+}
+.nav-bar{
+    background-color: #093A3E;
+    width: 100%;
+    height:10.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+    
+
+}
+#btn{
+    background: none;
+   margin: 7px;
+   color: white;
+}
+#btn:hover{
+    color: black;
+}
+.welcome{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+ 
+}
+#logout-btn{
+    margin-top: -4rem;
+    --accent: white;
+    margin-left: 9rem;
+    border-radius: 15px;
+    line-height: .7rem;
+    position: absolute;
+    margin-top: -1rem;
+  
+    
+
+}
+#logout-btn:hover{
+    background-color: black;
+    color: white;
+}
+.card{
+    /* border: 2px solid; */
+    width: 40rem;
+    height: 50em;
+    margin-left: 22rem;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 25px;
+   
+}
+.flag{
+    width: 100%;
+    border-radius:20px;
+}
+.score{
+    font-size: 40px;
+    font-weight: 700;
+}
+.game-main{
+    margin-top: 1rem;
+    background-image:url("https://www.shutterstock.com/image-illustration/animals-world-map-kids-wallpaper-260nw-1927141877.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.card-game{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.lc{
+    font-size: 30px;
+    margin-top: 1rem;
+}
+.submit{
+    margin-top: 3rem;
+}
+
+.funfacts{
+    width: 20rem;
+    height: 100rem;
+}
